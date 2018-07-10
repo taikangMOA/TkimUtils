@@ -13,6 +13,8 @@
 		79A033FD20F483B7005A4C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A033FC20F483B7005A4C9E /* Assets.xcassets */; };
 		79A0340020F483B7005A4C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A033FE20F483B7005A4C9E /* LaunchScreen.storyboard */; };
 		79A0340320F483B7005A4C9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A0340220F483B7005A4C9E /* main.m */; };
+		79A0340E20F4869D005A4C9E /* NSObject+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A0340A20F4869D005A4C9E /* NSObject+JSONCategories.m */; };
+		79A0340F20F4869D005A4C9E /* NSString+JSONCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A0340D20F4869D005A4C9E /* NSString+JSONCategories.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		79A033FF20F483B7005A4C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A0340120F483B7005A4C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79A0340220F483B7005A4C9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A0340A20F4869D005A4C9E /* NSObject+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSONCategories.m"; sourceTree = "<group>"; };
+		79A0340B20F4869D005A4C9E /* NSString+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSONCategories.h"; sourceTree = "<group>"; };
+		79A0340C20F4869D005A4C9E /* NSObject+JSONCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSONCategories.h"; sourceTree = "<group>"; };
+		79A0340D20F4869D005A4C9E /* NSString+JSONCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSONCategories.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		79A033F220F483B7005A4C9E /* TkimUtils */ = {
 			isa = PBXGroup;
 			children = (
+				79A0340920F4869D005A4C9E /* Classes */,
 				79A033F320F483B7005A4C9E /* AppDelegate.h */,
 				79A033F420F483B7005A4C9E /* AppDelegate.m */,
 				79A033F620F483B7005A4C9E /* ViewController.h */,
@@ -69,6 +76,17 @@
 				79A0340220F483B7005A4C9E /* main.m */,
 			);
 			path = TkimUtils;
+			sourceTree = "<group>";
+		};
+		79A0340920F4869D005A4C9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79A0340A20F4869D005A4C9E /* NSObject+JSONCategories.m */,
+				79A0340B20F4869D005A4C9E /* NSString+JSONCategories.h */,
+				79A0340C20F4869D005A4C9E /* NSObject+JSONCategories.h */,
+				79A0340D20F4869D005A4C9E /* NSString+JSONCategories.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +162,9 @@
 			files = (
 				79A033F820F483B7005A4C9E /* ViewController.m in Sources */,
 				79A0340320F483B7005A4C9E /* main.m in Sources */,
+				79A0340F20F4869D005A4C9E /* NSString+JSONCategories.m in Sources */,
 				79A033F520F483B7005A4C9E /* AppDelegate.m in Sources */,
+				79A0340E20F4869D005A4C9E /* NSObject+JSONCategories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
